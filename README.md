@@ -1,22 +1,23 @@
-# Smart Parking System  
+# Smart Parking System 🚗
 
-An FPGA-based project implemented in VHDL to simulate an automated parking system. It tracks cars entering a gate, detects their presence, and displays the total car count.  
-
----
-
-## Features  
-- **Button-Controlled Gate**: Simulates gate opening using a button.  
-- **Car Detection**: Uses an IR sensor to detect when a car passes through the gate.  
-- **Automatic Gate Closure**: The gate is managed by an SG90 servo motor.  
-- **Car Count Display**: Total number of cars is displayed on a 7-segment display.  
+An FPGA-based automated parking system designed to simulate real-world functionality using VHDL. This project demonstrates the integration of hardware components with FPGA logic to track car entries, detect motion, and display the total car count in a parking facility. The system leverages digital design principles to create an efficient and interactive parking solution.
 
 ---
 
-## Components Used  
+## Features 🌟
 
-- **FPGA Board**: DE10-Lite
-- **FPGA Board**: DE10-Lite  
-- **7-Segment Display**: For car count visualization.  
-- **Button**: Simulates gate control.  
-- **IR Sensor**: Detects cars passing through the gate.  
-- **SG90 Servo Motor**: Controls gate motion.  
+- **Button-Controlled Gate:** Simulates gate opening and closing operations with a tactile button.  
+- **Car Detection:** Employs an IR sensor to detect cars as they pass through the gate.  
+- **Automatic Gate Closure:** Gate operation is managed seamlessly using an SG90 servo motor.  
+- **Car Count Display:** Real-time car count is displayed on a 7-segment display for easy visualization.
+
+---
+
+## Components Used 🛠️
+
+- **FPGA Board:** DE10-Lite for implementing VHDL-based logic.  
+- **7-Segment Display:** Displays the total number of cars in the parking area.  
+- **Button:** Simulates manual gate control.  
+- **IR Sensor:** Detects the presence of vehicles passing through the gate.  
+- **SG90 Servo Motor:** Handles gate motion automatically.
+
